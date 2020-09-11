@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 7975091efa95518d4d813fa80c3368a3850643dc Jeremiah Flaga <j.flaga@arcanys.com> 1589289762 +0800	clone: from https://github.com/jeremiahflaga/identity-server-tutorial-raw-coding.git
+7975091efa95518d4d813fa80c3368a3850643dc 685f738798540fe5c6c7a5fdf3a38447c4fa471a Jeremiah Flaga <j.flaga@arcanys.com> 1589290130 +0800	commit: initial files for IdentityServer4 project
+685f738798540fe5c6c7a5fdf3a38447c4fa471a 4e8466cd52ca4fb37e5d183846a759aa103ff208 Jeremiah Flaga <j.flaga@arcanys.com> 1589290520 +0800	commit: renamed IdentityServer project; and initial changes in Startup class
+4e8466cd52ca4fb37e5d183846a759aa103ff208 eb83400ca152c5fdfed4740c753dc294f19e9745 Jeremiah Flaga <j.flaga@arcanys.com> 1589290592 +0800	commit: added IdentityServer4 nuget package
+eb83400ca152c5fdfed4740c753dc294f19e9745 8941137efb032e963137db8772a7046983a0595a Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589313439 +0800	commit: added APIs and Clients that can access that APIs
+8941137efb032e963137db8772a7046983a0595a 3ffb731f7cb4c3020e202b7aed139b0be553c087 Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589314205 +0800	commit: initial commit for ApiOne client project
+3ffb731f7cb4c3020e202b7aed139b0be553c087 61177c1872537c8843e08830035e58fdd5c2c659 Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589314369 +0800	commit: configured Startup class of ApiOne client project
+61177c1872537c8843e08830035e58fdd5c2c659 64b5b7223f2479a37cab742abe01f16bf2090299 Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589316421 +0800	commit: added JWT Bearer Authority and Audience in the ApiOne client project
+64b5b7223f2479a37cab742abe01f16bf2090299 44d6f71dd4126518e9527d234a0e5e5c25c115a2 Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589328297 +0800	commit: created SecretController in ApiOne project
+44d6f71dd4126518e9527d234a0e5e5c25c115a2 38464249c577d2177ba675f445499c4c4fbbf44e Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589328374 +0800	commit: created another API project named ApiTwo
+38464249c577d2177ba675f445499c4c4fbbf44e ba35e5d9852894d50a2ad2cf961ea2e895e64641 Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589328583 +0800	commit: setup Startup class in ApiTwo (mostly copied from ApiOne's Startup class, except config.Audience)
+ba35e5d9852894d50a2ad2cf961ea2e895e64641 c4d3b9c83cb12790d915b92e600316524a2504d0 Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589336478 +0800	commit: retrieve access token in ApiTwo project from IdentityServer project
+c4d3b9c83cb12790d915b92e600316524a2504d0 689301c88542e38b10496571e05551b0d826b96b Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589707700 +0800	pull --no-commit origin master: Fast-forward
+689301c88542e38b10496571e05551b0d826b96b 2f6c13eb2cfb95fe525c8b401568c36833003550 Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589708099 +0800	commit: replaced "video-11" in the comments with "episode-9"
+2f6c13eb2cfb95fe525c8b401568c36833003550 ed2249ce5c6a292f21c6591740c1a97f316d13be Jeremiah Flaga <flaga.jeremiah@gmail.com> 1589708305 +0800	commit: renamed solution file for episode 9
