@@ -1,0 +1,26 @@
+﻿@page
+@model SampleSite.Pages.AuthDumpModel
+@{
+}
+
+<h2>Auth Schemes</h2>
+
+<table class="table">
+    <tr>
+        <th>DisplayName</th>
+        <th>Name</th>
+        <th>Type</th>
+    </tr>
+    @foreach (var scheme in Model.Schemes)
+    {
+        <tr>
+            <td>@scheme.DisplayName</td>
+            <td>@scheme.Name</td>
+            <td>@scheme.HandlerType</td>
+        </tr>
+    }
+</table>
+<div>DefaultAuthenticate : @Model.DefaultAuthenticate.Name</div>
+<div>DefaultForbid: @Model.DefaultForbid.Name</div>
+<div>DefaultSignIn: @Model.DefaultSignIn.Name</div>
+<div>DefaultSignOut: @Model.DefaultSignOut.Name</div>
