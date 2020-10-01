@@ -9,21 +9,38 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
-<hr />
+<div>
+    <a href="/Page0">Page 0 - no Authorize attribute</a>
+</div>
 
 <div>
-    <h2>User</h2>
-    @foreach (var identity in User.Identities)
-    {
-        <div>Authentication Type: @identity.AuthenticationType</div>
-        <table class="table">
-            @foreach (var claim in identity.Claims)
-            {
-                <tr>
-                    <td>@claim.Type</td>
-                    <td>@claim.Value</td>
-                </tr>
-            }
-        </table>
-    }
+    <a href="/Page1">Page 1 - [Authorize]</a>
+</div>
+
+<div>
+    <a href="/Page2">Page 2 - [Authorize(AuthenticationSchemes = "cookie2")]</a>
+</div>
+
+<div>
+    <a href="/Page3">Page 3 - [Authorize(AuthenticationSchemes = "cookie1, cookie2")]</a>
+</div>
+
+<div>
+    <a href="/loginc1">Login cookie1</a>
+</div>
+
+<div>
+    <a href="/loginc2">Login cookie2</a>
+</div>
+
+<div>
+    <a href="/logoutc1">Logout cookie1</a>
+</div>
+
+<div>
+    <a href="/logoutc2">Logout cookie2</a>
+</div>
+
+<div>
+    <a href="/AuthDump">AuthDump</a>
 </div>

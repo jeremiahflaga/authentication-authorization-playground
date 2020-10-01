@@ -69,12 +69,12 @@ namespace SampleSite
                     switch (ctx.Request.Path)
                     {
                         case "/loginc1":
-                            var identity1 = new ClaimsIdentity("cookie1");
+                            var identity1 = new ClaimsIdentity("cookie111");
                             identity1.AddClaim(new Claim("name", "Alice-c1"));
                             await ctx.SignInAsync("cookie1", new ClaimsPrincipal(identity1));
                             break;
                         case "/loginc2":
-                            var identity2 = new ClaimsIdentity("cookie2");
+                            var identity2 = new ClaimsIdentity("cookie222");
                             identity2.AddClaim(new Claim("name", "Alice-c2"));
                             await ctx.SignInAsync("cookie2", new ClaimsPrincipal(identity2));
                             break;
